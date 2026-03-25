@@ -43,11 +43,11 @@ function ThemeHotkey() {
         return
       }
 
-      if (event.metaKey || event.ctrlKey || event.altKey) {
+      if (!event.ctrlKey || !event.altKey || event.metaKey) {
         return
       }
 
-      if (event.key.toLowerCase() !== "d") {
+      if (event.key.toLowerCase() !== "z") {
         return
       }
 
