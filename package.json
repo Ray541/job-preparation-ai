@@ -14,7 +14,10 @@
   "dependencies": {
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
     "lucide-react": "^1.6.0",
+    "mongoose": "^9.3.3",
     "next": "16.1.7",
     "next-themes": "^0.4.6",
     "radix-ui": "^1.4.3",
@@ -27,15 +30,34 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4.2.1",
+    "@types/express": "^5.0.6",
     "@types/node": "^25.5.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "eslint": "^9.39.4",
     "eslint-config-next": "16.1.7",
+    "nodemon": "^3.1.14",
     "postcss": "^8",
     "prettier": "^3.8.1",
     "prettier-plugin-tailwindcss": "^0.7.2",
     "tailwindcss": "^4.2.1",
+    "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
-  }
+  },
+  "description": "This is a Next.js template with shadcn/ui.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ray541/job-preparation-ai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ray541/job-preparation-ai/issues"
+  },
+  "homepage": "https://github.com/Ray541/job-preparation-ai#readme"
 }

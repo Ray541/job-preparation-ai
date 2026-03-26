@@ -12,6 +12,7 @@ export default function Page() {
         </div>
         <div className="font-mono text-xs text-muted-foreground">
           (Press <kbd>ctl + alt + z</kbd> to toggle dark mode)
+          
         </div>
       </div>
     </div>
